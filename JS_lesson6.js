@@ -25,12 +25,57 @@
 // }
 // var result = (Math.sqrt(summ));
 // alert(result);
-
-
-
-
-
-
-
-
-
+// Найдите квадратный корень из 379. Результат округлите до целых, до десятых, до сотых.
+// var num = 379;
+// var sqrtNum = (Math.sqrt(num));
+// alert(Math.round(sqrtNum));
+// alert(sqrtNum.toFixed(1));
+// alert(sqrtNum.toFixed(2));
+// Найдите квадратный корень из 587. Округлите результат в большую и меньшую стороны, запишите результаты округления в объект с ключами 'floor' и 'ceil'.
+// var sqNum = Math.sqrt(587);
+// var obj = {'floor': Math.floor(sqNum), 'ceil': Math.ceil(sqNum)};
+// console.log(obj);
+// Даны числа 4, -2, 5, 19, -130, 0, 10. Найдите минимальное и максимальное число.
+// var maxNum = Math.max(4, -2, 5, 19, -130, 0, 10);
+// var minNum = Math.min(4, -2, 5, 19, -130, 0, 10);
+// alert('минимальное число: ' + minNum);
+// alert('максимальное число: ' + maxNum);
+// Выведите на экран случайное целое число от 1 до 100.
+// function getRandomInt(min, max) {
+// 	return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+// alert(getRandomInt(1, 100));
+// Заполните массив 10-ю случайными целыми числами.
+// var arr = [];
+// var arrMaxLength = 10;
+// function getRandomInt(min, max) {
+// 	return Math.floor(Math.random() * (max - min + 1)) + min;
+// };
+// for (var i=0; i < arrMaxLength; i++){
+// 	arr[i] = (getRandomInt(1, 100));
+// };
+// console.log(arr);
+// Даны переменные a и b. Найдите найдите модуль разности a и b. Проверьте работу скрипта самостоятельно для различных a и b.
+// var a = 33;
+// var b = 57;
+// alert(Math.abs(a-b));
+// Даны переменные a и b. Отнимите от a переменную b и результат присвойте переменной c. Сделайте так, чтобы в любом случае в переменную c записалось положительное значение. Проверьте работу скрипта при a и b, равных соответственно 3 и 5, 6 и 1.
+// var a = 3;
+// var b = 5;
+// var c = Math.abs(a-b);
+// alert(c);
+// Дан массив arr. Найдите среднее арифметическое его элементов. Проверьте задачу на массиве с элементами 12, 15, 20, 25, 59, 79.
+// var arr = [12, 15, 20, 25, 59, 79];
+// var summ = 0;
+// for (var i=0; i < arr.length; i++){
+// 	summ += arr[i]; 
+// };
+// var num = summ/arr.length;
+// alert(num);
+// Напишите скрипт, который будет находить факториал числа. Факториал (обозначается !) - это произведение (умножение) всех целых чисел, меньше данного, и его самого. Например, 4! = 1*2*3*4.
+// var factorial = 1;
+// var num = 14;
+// for (var i=1; i <= num; i++){
+// 	factorial *= i; 
+// };
+// alert(factorial);
