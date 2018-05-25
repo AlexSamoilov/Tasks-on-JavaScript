@@ -34,13 +34,33 @@
 // var arr = str.split(' ');
 // alert(arr);
 // В переменной date лежит дата в формате '2025-12-31'. Преобразуйте эту дату в формат '31.12.2025'.
-
-
-
-
-
-
-
-
-
-
+// var date = '2025-12-31';
+// var arr = date.split('-');
+// var newDate = arr[2] + '.' + arr[1] + '.'+arr[0];
+// alert(newDate);
+// Дан массив ['я', 'учу', 'javascript', '!']. С помощью метода join преобразуйте массив в строку 'я+учу+javascript+!'
+// var arr = ['я', 'учу', 'javascript', '!'];
+// var str = arr.join('+');
+// alert(str);
+// Преобразуйте первую букву строки в верхний регистр.
+// var str = 'я учу javascript';
+// var newStr = str[0].toUpperCase() + str.substr(1);
+// var secStr = str.slice(0, 1).toUpperCase() + str.slice(1);
+// alert(newStr);
+// alert(secStr);
+// Преобразуйте первую букву каждого слова строки в верхний регистр.
+// var str = 'я учу javascript!';
+// var arr = str.split(' ');
+// for (var i = 0; i < arr.length; i++) {
+// 	arr[i] = arr[i].slice(0, 1).toUpperCase() + arr[i].slice(1);
+// }
+// var newStr = arr.join(' ');
+// alert(newStr);
+// Преобразуйте строку 'var_test_text' в 'varTestText'. Скрипт, конечно же, должен работать с любыми аналогичными строками.
+// var str = 'var_test_text';
+// var arr = str.split('_');
+// for (var i = 1; i < arr.length; i++) {
+// 	arr[i] = arr[i].slice(0, 1).toUpperCase() + arr[i].slice(1);
+// }
+// var newStr = arr.join('');
+// alert(newStr);
