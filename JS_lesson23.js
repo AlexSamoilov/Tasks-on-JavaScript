@@ -24,23 +24,45 @@
 // Дан элемент #elem. Сделайте его красного цвета, размером 30px, добавьте ему границу. Решите задачу с помощью свойства cssText.
 // var elem = document.getElementById('elem');
 // elem.style.cssText = 'color: red; font-size: 30px; border: 1px solid black;';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Дан элемент #elem. По клику на него выведите название его тега.
+// function func() {
+// 	var elem = document.getElementById('elem');
+// 	alert(elem.tagName);
+// }
+// Дан элемент #elem. По клику на него выведите название его тега в нижнем регистре.
+// function func() {
+// 	var elem = document.getElementById('elem');
+// 	alert(elem.tagName.toLowerCase());
+// }
+// Даны элементы с классом www. Добавьте каждому элементу в конец название его тега в нижнем регистре.
+// var elems = document.querySelectorAll('.www');
+// for (var i = 0; i < elems.length; i++) {
+// 	elems[i].innerHTML = elems[i].innerHTML + elems[i].tagName.toLowerCase();
+// }
+// Дан ol. Вставьте ему в конец li с текстом 'пункт'.
+// var ol = document.getElementById('ol');
+// var li = document.createElement('li');
+// li.innerHTML = 'пункт';
+// elem.appendChild(li);
+// Дан ul. Дан массив. Вставьте элементы этого массива в конец ul так, чтобы каждый элемент стоял в своем li.
+// var ul = document.getElementById('ul');
+// var arr = [1, 2, 3];
+// for (var i = 0; i < arr.length; i++) {
+// 	var li = document.createElement('li');
+//  	li.innerHTML = arr[i];
+// 	ul.appendChild(li);
+// }
+// Дан ul. Дан массив. Вставьте элементы этого массива в конец ul так, чтобы каждый элемент стоял в своем li. Сделайте так, чтобы к вставляемым li было привязано следующее событие: по нажатию на li она должна вывести на экран свой текст.
+// var ul = document.getElementById('ul');
+// var arr = [1, 2, 3];
+// for (var i = 0; i < arr.length; i++) {
+// 	var li = document.createElement('li');
+//  	li.innerHTML = arr[i];
+// 	li.addEventListener('click', func); //привяжем событие
+// 	ul.appendChild(li);
+// }
+// function func() {
+// 	alert(this.innerHTML);
+// }
 
 
