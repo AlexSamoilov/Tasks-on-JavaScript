@@ -43,3 +43,25 @@
 // for (var i = 0; i < elem.children.length; i++) {
 // 	elem.children[i].innerHTML += ' !';
 // }
+// Дан элемент #elem. Найдите его соседа сверху и добавьте ему в конец текст '!'.
+// var elem = document.getElementById('elem');
+// var prev = elem.previousElementSibling;
+// prev.innerHTML = prev.innerHTML + '!';
+// Дан элемент #elem. Найдите его соседа снизу и добавьте ему в конец текст '!'.
+// var elem = document.getElementById('elem');
+// var prev = elem.nextElementSibling;
+// prev.innerHTML = prev.innerHTML + '!';
+// Дан элемент #elem. Найдите его соседа снизу его соседа снизу (следующий элемент за соседним) и добавьте ему в конец текст '!'.
+// var elem = document.getElementById('elem');
+// var prev = elem.nextElementSibling.nextElementSibling;
+// prev.innerHTML = prev.innerHTML + '!';
+
+
+
+
+
+
+
+
+
+
