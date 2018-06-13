@@ -56,7 +56,13 @@
 // var prev = elem.nextElementSibling.nextElementSibling;
 // prev.innerHTML = prev.innerHTML + '!';
 
+// Дан элемент #elem. Найдите его родителя и покрасьте его в красный цвет.
+// var elem = document.getElementById('elem');
+// elem.parentElement.style.color = 'red';
 
+// Дан элемент #elem. Найдите родителя его родителя и покрасьте его в красный цвет.
+// var elem = document.getElementById('elem');
+// elem.parentElement.parentElement.style.color = 'red';
 
 
 
