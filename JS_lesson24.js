@@ -64,7 +64,23 @@
 // var elem = document.getElementById('elem');
 // elem.parentElement.parentElement.style.color = 'red';
 
+// Дан элемент #parent, внутри него дан элемент #child. Дана кнопка. По нажатию на эту кнопку удалите элемент #child.
+// var button = document.getElementById('button');
+// button.addEventListener('click', func);
 
+// function func() {
+// 	var parent = document.getElementById('parent');
+// 	var child = document.getElementById('child');
+// 	parent.removeChild(child);
+// }
+// Дан ol. По нажатию на кнопку получите его последнего потомка и удалите его.
+// var elem = document.getElementById('button');
+// elem.addEventListener('click', func);
+
+// function func() {
+// 	var parent = document.getElementById('parent');
+// 	parent.removeChild(parent.lastElementChild);
+// }
 
 
 
