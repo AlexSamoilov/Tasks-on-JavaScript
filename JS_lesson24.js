@@ -82,8 +82,23 @@
 // 	parent.removeChild(parent.lastElementChild);
 // }
 
+// Дан элемент. Сделайте так, чтобы по нажатию по нему этот элемент удалялся.
+// var elem = document.getElementById('elem');
+// elem.addEventListener('click', func);
 
+// function func() {
+// 	this.parentElement.removeChild(this);
+// }
 
+// Дан ol, а внутри него li. Сделайте так, чтобы по нажатию на любую li эта li удалялась.
+// var elems = document.getElementsByTagName('li');
+// for (var i = 0; i < elems.length; i++) {
+//  	elems[i].addEventListener('click', func);
+// }
+
+// function func() {
+// 	this.parentElement.removeChild(this);
+// }
 
 
 
