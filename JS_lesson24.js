@@ -100,5 +100,14 @@
 // 	this.parentElement.removeChild(this);
 // }
 
+// Дан инпут. Дана кнопка. По нажатию на кнопку клонируйте этот инпут.
 
+// var input = document.getElementById('input');
+// var button = document.getElementById('button');
 
+// button.addEventListener('click', func);
+
+// function func(){
+// 	var clone = input.cloneNode(true);
+// 	input.parentElement.appendChild(clone);
+// }
