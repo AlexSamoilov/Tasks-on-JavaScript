@@ -111,3 +111,44 @@
 // 	var clone = input.cloneNode(true);
 // 	input.parentElement.appendChild(clone);
 // }
+
+// Дан массив. Создайте ul через createElement, затем вставьте каждый элемент этого массива в отдельную li внутри этой ul, затем вставьте эту ul в конец body.
+// var arr = [1, 2, 3];
+// var ul = document.createElement('ul');
+// for (var i = 0; i < arr.length; i++) {
+// 	var li = document.createElement('li');
+//  	li.innerHTML = arr[i];
+// 	ul.appendChild(li);
+// }
+// document.body.appendChild(ul);
+// Дан инпут. Рядом с ним находится кнопочка "+". По нажатию на эту кнопку под нашим инпутом должен появится еще один пустой инпут.
+// var button = document.getElementById('button');
+// button.addEventListener('click', func);
+
+// function func(){
+// 	var parent = button.parentElement;
+// 	var newInput = document.createElement('input');
+// 	parent.appendChild(newInput);
+// }
+// Дан инпут. В него вводится число. По потери фокуса сделайте так, чтобы каждая цифра вставилась в новый инпут. Инпутов для цифр изначально не существует, они должны создаться в процессе работы скрипта.
+// var input = document.getElementById('input');
+// input.addEventListener('blur', func);
+
+// function func(){
+// 	var digits = this.value.split(''); //массив цифр
+// 	var parent = input.parentElement;
+
+// 	for (var i = 0; i < digits.length; i++) {
+// 		var newInput = document.createElement('input');
+// 		newInput.value = digits[i];
+// 		parent.appendChild(newInput);
+// 	}
+// }
+// Дана кнопка. Сделайте так, чтобы по нажатию на эту кнопку, скрывался родитель этой кнопки.
+// var button = document.getElementById('button');
+// button.addEventListener('click', func);
+
+// function func() {
+// 	this.parentElement.style.display = 'none';
+// }
+
