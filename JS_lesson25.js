@@ -30,7 +30,22 @@
 // function func() {
 // 	alert(elem.offsetHeight);
 // }
+// Дан элемент #elem с границами. По нажатию на кнопку выведите его полную ширину без учета границы, но с padding.
+// var elem = document.getElementById('elem');
+// var button = document.getElementById('button');
+// button.addEventListener('click', func);
 
+// function func() {
+// 	alert(elem.clientWidth);
+// }
+// Дан элемент #elem с границами. По нажатию на кнопку выведите его полную высоту без учета границы, но с padding.
+// var elem = document.getElementById('elem');
+// var button = document.getElementById('button');
+// button.addEventListener('click', func);
+
+// function func() {
+// 	alert(elem.clientHeight);
+// }
 
 
 
