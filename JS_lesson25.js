@@ -46,6 +46,13 @@
 // function func() {
 // 	alert(elem.clientHeight);
 // }
+// Дан элемент #elem. Получите его ширину и высоту, без учета границы и padding.
+// var elem = document.getElementById('elem');
+// var button = document.getElementById('button');
+// button.addEventListener('click', func);
 
+// function func() {
+// 	alert(getComputedStyle(elem).height + ' ' + getComputedStyle(elem).width);
+// }
 
 
