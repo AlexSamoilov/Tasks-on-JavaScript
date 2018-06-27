@@ -54,5 +54,12 @@
 // function func() {
 // 	alert(getComputedStyle(elem).height + ' ' + getComputedStyle(elem).width);
 // }
+// Дан элемент #elem с вертикальной полосой прокрутки. По нажатию на кнопку выведите на сколько элемент прокручен сверху.
+// var elem = document.getElementById('elem');
+// var button = document.getElementById('button');
+// button.addEventListener('click', func);
 
+// function func() {
+// 	alert(elem.scrollTop);
+// }
 
