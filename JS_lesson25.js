@@ -63,3 +63,12 @@
 // 	alert(elem.scrollTop);
 // }
 
+// Дан элемент #elem с горизонтальной полосой прокрутки. По нажатию на кнопку выведите на сколько элемент прокручен слева.
+// var elem = document.getElementById('elem');
+// var button = document.getElementById('button');
+// button.addEventListener('click', func);
+
+// function func() {
+// 	alert(elem.scrollLeft);
+// }
+
