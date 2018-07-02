@@ -87,7 +87,14 @@
 // function func() {
 // 	elem.scrollTop += 100;
 // }
+// Дан элемент #elem с вертикальной полосой прокрутки. По нажатию на кнопку выведите реальную высоту элемента с учетом прокрутки.
+// var elem = document.getElementById('elem');
+// var button = document.getElementById('button');
+// button.addEventListener('click', func);
 
+// function func() {
+// 	alert(elem.scrollHeight);
+// }
 
 
 
