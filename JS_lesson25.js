@@ -95,7 +95,14 @@
 // function func() {
 // 	alert(elem.scrollHeight);
 // }
+// Дан элемент #elem с горизонтальной полосой прокрутки. По нажатию на кнопку выведите реальную ширину элемента с учетом прокрутки.
+// var elem = document.getElementById('elem');
+// var button = document.getElementById('button');
+// button.addEventListener('click', func);
 
+// function func() {
+// 	alert(elem.scrollWidth);
+// }
 
 
 
