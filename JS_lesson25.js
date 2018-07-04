@@ -103,7 +103,16 @@
 // function func() {
 // 	alert(elem.scrollWidth);
 // }
+// Дан элемент #elem с вертикальной полосой прокрутки. По нажатию на кнопку прокрутите его до позиции 100px от нижнего края элемента.
+// var elem = document.getElementById('elem');
+// var button = document.getElementById('button');
+// button.addEventListener('click', func);
 
+// function func() {
+// 	var total_height = elem.scrollHeight;
+// 	var needed_height = total_height - 100;
+// 	elem.scrollTop = needed_height;
+// }
 
 
 
