@@ -121,6 +121,14 @@
 // function func() {
 // 	alert(pageYOffset);
 // }
+// Дана страница с горизонтальной полосой прокрутки. По нажатию на кнопку узнайте на сколько страница прокручена по горизонтали. 
+// var elem = document.getElementById('elem');
+// var button = document.getElementById('button');
+// button.addEventListener('click', func);
+
+// function func() {
+// 	alert(pageXOffset);
+// }
 
 
 
