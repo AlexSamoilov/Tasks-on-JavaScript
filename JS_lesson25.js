@@ -130,5 +130,11 @@
 // 	alert(pageXOffset);
 // }
 
+// Дана страница с горизонтальной и вертикальной полосами прокрутки. По нажатию на кнопку прокрутите ее в точку 300px слева, 500px сверху.
+// var button = document.getElementById('button');
+// button.addEventListener('click', func);
 
+// function func() {
+// 	window.scrollTo(300, 500);
+// }
 
