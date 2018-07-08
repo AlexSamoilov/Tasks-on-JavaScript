@@ -138,3 +138,17 @@
 // 	window.scrollTo(300, 500);
 // }
 
+// Дана страница с вертикальной полосой прокрутки. По нажатию на кнопку прокрутите на 300px вниз от текущего положения.
+// var button = document.getElementById('button');
+// button.addEventListener('click', func);
+
+// function func() {
+// 	window.scrollBy(0, 300);
+// }
+
+
+
+
+
+
+
