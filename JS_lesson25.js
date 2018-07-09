@@ -146,7 +146,14 @@
 // 	window.scrollBy(0, 300);
 // }
 
+// По нажатию на кнопку прокрутите страницу до самого низа.
 
+// var button = document.getElementById('button');
+// button.addEventListener('click', func);
+
+// function func() {
+// 	window.scrollTo(0, document.body.clientHeight);
+// }
 
 
 
