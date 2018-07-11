@@ -155,7 +155,23 @@
 // 	window.scrollTo(0, document.body.clientHeight);
 // }
 
+// По нажатию на кнопку прокрутите страницу на 400px от текущего положения.
+// var button = document.getElementById('button');
+// button.addEventListener('click', func);
 
+// function func() {
+// 	window.scrollBy(0, 400);
+// }
 
+// По нажатию на кнопку проверьте, прокручена ли страница до самого низа. Если это так - прокрутите ее в положение 100px от верхнего края.
+// var button = document.getElementById('button');
+// button.addEventListener('click', func);
+
+// function func() {
+// 	var body = document.documentElement;
+// 	if (body.scrollHeight - body.scrollTop == body.clientHeight) {
+// 		window.scrollTo(0, 100);
+// 	}
+// }
 
 
