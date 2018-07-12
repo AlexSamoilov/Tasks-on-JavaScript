@@ -166,12 +166,19 @@
 // По нажатию на кнопку проверьте, прокручена ли страница до самого низа. Если это так - прокрутите ее в положение 100px от верхнего края.
 // var button = document.getElementById('button');
 // button.addEventListener('click', func);
-
 // function func() {
 // 	var body = document.documentElement;
 // 	if (body.scrollHeight - body.scrollTop == body.clientHeight) {
 // 		window.scrollTo(0, 100);
 // 	}
 // }
+// Дан элемент #elem. По клику на него увеличьте его ширину и высоту в 2 раза.
+// var elem = document.getElementById('elem');
+// elem.addEventListener('click', func);
 
-
+// function func() {
+// 	var startWidth = this.offsetWidth;
+// 	var startHeight = this.offsetHeight;
+// 	this.style.width = startWidth * 2 + 'px';
+// 	this.style.height = startHeight * 2 + 'px';
+// }
