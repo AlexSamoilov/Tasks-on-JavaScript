@@ -12,6 +12,19 @@
 // 	newElem.value = sum;
 // }    
 
+// Даны N инпутов с классом .num и кнопка. По нажатию на кнопку получите числа, стоящие в этих инпутах и запишите их сумму в абзац с id="result".
+// var elem = document.getElementById('task');
+// elem.addEventListener('click', func);
+// var elem1 = document.getElementsByClassName('num');
+
+// function func() {
+// 	var sum = 0;
+// 	for (var i = 0; i < elem1.length; i++) {
+// 		sum += +elem1[i].value;
+// 	}
+// 	var newElem = document.getElementById('result');
+// 	newElem.innerHTML = sum;
+// }    
 
 
 
