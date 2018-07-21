@@ -82,6 +82,24 @@
 // 	}
 // }       
 
+// Дан инпут. В него вводится ФИО через пробел. ФИО вводится с маленькой буквы. Сделайте так, чтобы по потери фокуса инпутом, введенные фамилия, имя и отчество автоматически стали записанными с большой буквы (в том же инпуте).
+// var elem = document.getElementById('input');
+//  elem.addEventListener('blur', bigLetter);
+
+// function uswords(str) {
+// 	var arr = str.split(' ');
+// 	for (var i = 0; i < arr.length; i++) {
+// 		arr[i] = arr[i].split('');
+// 		arr[i][0] = arr[i][0].toUpperCase();
+// 		arr[i] = arr[i].join('');
+// 	}
+// 	str = arr.join(' ');
+// 	return str;
+// }
+
+// function bigLetter() {
+// 	elem.value = uswords(elem.value);
+// }  
 
 
 
