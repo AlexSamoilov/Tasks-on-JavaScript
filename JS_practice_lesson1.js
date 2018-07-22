@@ -101,6 +101,21 @@
 // 	elem.value = uswords(elem.value);
 // }  
 
+// Дан инпут. В него вводится текст. По потери фокуса узнайте количество слов в этом тексте
+// var elem = document.getElementById('num');
+// elem.addEventListener('blur', func);
+
+// function func() {
+// 	var num = 0;
+// 	var str = elem.value;
+// 	var arr = str.split(' ');
+// 	for (var i = 0; i < arr.length; i++) {
+// 		num += 1;
+//  	}
+// 	var p = document.getElementById('result');
+// 	p.innerHTML = num;
+// }    
+
 
 
 
