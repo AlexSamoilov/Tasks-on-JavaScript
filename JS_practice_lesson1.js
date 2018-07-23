@@ -116,6 +116,18 @@
 // 	p.innerHTML = num;
 // }    
 
+// Дан инпут. В него вводится дата в формате 31.12.2016. По потери фокуса в этом же инпуте поставьте эту дату в формате 2016-12-31. 
+// var elem = document.getElementById('num');
+// elem.addEventListener('blur', func);
+
+// function func() {
+// 	var arr2 = [];
+// 	var str = elem.value;
+// 	var arr = str.split('.');
+// 	arr2 = arr.reverse();
+// 	var str1 = arr2.join('-');
+// 	elem.value = str1;
+// } 
 
 
 
