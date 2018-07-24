@@ -129,6 +129,20 @@
 // 	elem.value = str1;
 // } 
 
+// Дан инпут. В него вводится год рождения пользователя. По нажатию на кнопку выведите в абзац ниже сколько пользователю лет.
+// var elem = document.getElementById('num');
+// var elem1 = document.getElementById('btn');
+// this.addEventListener('click', func);
+
+// function func() {
+// 	var year = elem.value;
+// 	var date = new Date();
+// 	var yearNow = date.getFullYear();
+// 	var p = document.getElementById('result');
+// 	p.innerHTML = yearNow - year;
+// } 
+
+
 
 
 
