@@ -142,7 +142,21 @@
 // 	p.innerHTML = yearNow - year;
 // } 
 
+// Дан инпут. В него вводится дата в формате 31.12.2016. По потери фокуса узнайте день недели (словом), который приходится на эту дату.
+// var elem = document.getElementById('num');
+// elem.addEventListener('click', func);
 
+// function func() {
+// 	var dayWeak = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
+//  	var str = elem.value;
+// 	var arr = str.split('.');
+// 	var arr2 = arr.reverse();
+// 	var str1 = arr2.join(',')
+// 	var date = new Date(str1);
+// 	var day = date.getDay();
+// 	var p = document.getElementById('text');
+// 	p.innerHTML = dayWeak[day];
+// }
 
 
 
