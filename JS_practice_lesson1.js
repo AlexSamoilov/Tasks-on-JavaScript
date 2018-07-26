@@ -157,7 +157,24 @@
 // 	var p = document.getElementById('text');
 // 	p.innerHTML = dayWeak[day];
 // }
+// Дан инпут. В него вводится слово. По нажатию на кнопку проверьте то, что это слово читается с начала и с конца одинаково (например, мадам).
+// var elem = document.getElementById('num');
+// var btn = document.getElementById('but');
+// btn.addEventListener('click', func);
 
+// function func() {
+// 	var str = elem.value;
+//  	var arr = str.split('');
+// 	var arr2 = str.split('').reverse();
+// 	for(var i = 0; i < arr.length; i++) {
+// 		if(arr[i]!== arr2[i]) { 
+// 			alert('это слово не палиндром');
+// 			return;
+// 		}
+//   	}
+// 	alert('это слово палиндром');
+// 	return;
+// }
 
 
 
