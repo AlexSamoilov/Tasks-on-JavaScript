@@ -176,7 +176,22 @@
 // 	return;
 // }
 
+// Дан инпут. В него вводится число. Проверьте по вводу, что это число содержит внутри себя цифру 3.
+// var elem = document.getElementById('num');
+// elem.addEventListener('click', func);
 
+// function func() {
+// 	var str = elem.value;
+// 	var arr = str.split('');
+// 	for (var i = 0; i < arr.length; i++) {
+// 		if (arr[i] == 3) {
+// 			alert('это число содержит 3');
+// 			return;
+//   		}
+// 	}
+// 	alert('это число не содержит 3');
+// 	return;
+// }
 
 
 
