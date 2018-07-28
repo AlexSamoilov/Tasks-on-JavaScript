@@ -193,6 +193,18 @@
 // 	return;
 // }
 
+// Даны N абзацев и кнопка. По нажатию на кнопку запишите в конец каждого абзаца его порядковый номер.
+// var elem = document.getElementsByTagName('p');
+// var btn= document.getElementById('btn');
+// btn.addEventListener('click', func);
+
+// function func() {
+// 	for (var i = 0; i< elem.length; i++) {
+// 		elem[i].innerHTML = elem[i].innerHTML+' '+(i + 1);
+// 	}
+//  }   
+
+ 
 
 
 
