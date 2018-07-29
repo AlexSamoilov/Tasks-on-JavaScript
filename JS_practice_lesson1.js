@@ -204,7 +204,31 @@
 // 	}
 //  }   
 
- 
+// Даны N абзацев с числами. По нажатию на кнопку выведите эти числа в инпут через запятую в порядке возрастания.
+// var elem = document.getElementsByTagName('p');
+// var btn= document.getElementById('btn');
+// btn.addEventListener('click', func);
+
+// function func() {
+// 	var arr2 = [];
+//  	for (var i = 0; i< elem.length; i++) {
+// 		arr2[i] = +elem[i].innerHTML;
+// 	}
+// 	var input = document.getElementById('num');
+// 	input.value = arr2.sort(sortArr);
+//    }
+
+// function sortArr(a, b) {
+// 	if (a > b) {
+// 		return -1;
+// 	}
+// 	if (a < b) {
+// 		return -1;
+//  	}
+// 	if (a == b) {
+// 		return 0;
+//  	}
+//  }    
 
 
 
