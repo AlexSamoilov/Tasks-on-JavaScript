@@ -230,7 +230,16 @@
 //  	}
 //  }    
 
+// Даны ссылки. По загрузке страницы добавьте в конец каждой ссылки ее href в круглых скобках.
+// var elem = document.getElementsByTagName('a');
 
+// function start() {
+// 	for (var i = 0; i < elem.length; i++) {
+// 		elem[i].innerHTML = elem[i].innerHTML + '(' +elem[i].href+')';
+// 	}
+//  }  
+
+ 
 
 
 
