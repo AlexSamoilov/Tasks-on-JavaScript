@@ -239,9 +239,26 @@
 // 	}
 //  }  
 
- 
+// Даны ссылки. По загрузке страницы, если ссылка начинается с http://, то добавьте ей в конец стрелку → (делается так: &rarr;).
+//  var elem = document.getElementsByTagName('a');
 
+// function start() {
+// 	for (var i = 0; i < elem.length; i++) {
+// 		if (elem[i].href.indexOf('http://') == 0) {
+//  			elem[i].innerHTML = elem[i].innerHTML + 'стрелка';
+// 		}
+// 	}
+//  }    
 
+// Даны N абзацев с числами. По нажатию на любой абзац запишите в него квадрат числа, которое в нем находится.
+// var elem = document.getElementsByTagName('a');
+// for (var i = 0; i < elem.length; i++) {
+// 	elem[i].addEventListener('click', func);
+// }
+
+// function func() {
+// 	this.innerHTML = this.innerHTML * this.innerHTML;
+// } 
 
 
 
