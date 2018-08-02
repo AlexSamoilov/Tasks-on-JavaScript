@@ -260,5 +260,16 @@
 // 	this.innerHTML = this.innerHTML * this.innerHTML;
 // } 
 
+// Даны картинки. По нажатию на любую картинку увеличьте ее в 2 раза.
+// var elem = document.getElementsByTagName('img');
+// for (var i = 0; i < elem.length; i++){
+// 	elem[i].addEventListener('click', func);
+//  }
 
+// function func() {
+// 	this.height = this.height * 2;
+//  }    
+
+
+ 
 
