@@ -270,6 +270,23 @@
 // 	this.height = this.height * 2;
 //  }    
 
+// Даны картинки. По первому нажатию на любую картинку увеличьте ее в 2 раза. По второму нажатию - уменьшите обратно.
+// var elem = document.getElementsByTagName('img');
+// for (var i = 0; i < elem.length; i++){
+// 	elem[i].addEventListener('click', func);
+//  }
 
- 
+// function func() {
+// 	this.height = this.height * 2;
+// 	this.removeEventListener('click', func);
+// 	this.addEventListener('click', reback);
+//   }
+
+// function reback() {
+// 	this.height = this.height / 2;
+// 	this.removeEventListener('click', reback);
+// 	this.addEventListener('click', func);
+// }  
+
+
 
