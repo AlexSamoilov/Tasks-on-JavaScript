@@ -288,5 +288,35 @@
 // 	this.addEventListener('click', func);
 // }  
 
+// Даны N картинок размера 30px. По нажатию на картинку под ними эта картинка появляется размером в 50px. 
+// var elem = document.getElementsByTagName('img');
+// for (var i = 0; i < elem.length; i++) {
+// 	elem[i].addEventListener('click', func);
+//  }
+
+// function func() {
+// 	var bigImg = document.getElementById('task');
+// 	bigImg.src = this.src;
+// }     
+
+// Дан инпут. Реализуйте кнопочки +1, -1, которые будут увеличивать или уменьшать на 1 значение инпута. Сделайте так, чтобы это значение не могло стать меньше нуля.
+// var elem = document.getElementById('num');
+// var btnElem = document.getElementsByClassName('cls');
+// for (var i = 0;i < elem.length; i++) {
+// 	btnElem[i].addEventListener('click', func);
+//  }
+
+// function func() {
+// 	var number = +elem.value+ +this.value;
+// 	if (number >= 0){
+// 		elem.value = number;
+//  	} else {
+// 		elem.value = 0;
+// 	}
+// }   
+
+
+
+
 
 
