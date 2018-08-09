@@ -20,8 +20,29 @@
 // 	inp.value = content;
 // }   
 
+// Даны абзацы с числами. По нажатию на кнопку найдите абзац, в котором хранится максимальное число, и сделайте его красного цвета. 
+// var elems = document.getElementsByTagName('p');
+// for (var i = 0; i < elems.length; i++) {
+// 	elems[i].addEventListener('click', func);
+// }
 
+// function func() {
+// 	var inp = document.querySelector('input');
+// 	inp.value = Number(inp.value) + 1;
+// } 
 
+// Дан инпут. Даны абзацы. Пусть в этот инпут записывается суммарное количество нажатий по этим абзацам.
+// var inp = document.getElementById('result');
+// var p = document.getElementsByTagName('p');
+// for (var i = 0; i < p.length; i++) {
+// 	p[i].addEventListener('click', func);
+//  }
+
+// var count = 0;
+// function func() {
+// 	count++;
+// 	inp.value = count;
+// } 
 
 
 
