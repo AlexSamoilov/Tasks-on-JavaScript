@@ -44,6 +44,18 @@
 // 	inp.value = count;
 // } 
 
+// Дан инпут с числом. Сделайте так, чтобы каждую секунду в нем появлялся квадрат того числа, которое в нем записано.
+// var inp = document.getElementById('result');
+
+// function start() {
+// 	window.setInterval(timer, 1000);
+//  }
+
+// function timer() {
+// 	inp.value = inp.value * inp.value;
+//  }   
+
+
 
 
 
