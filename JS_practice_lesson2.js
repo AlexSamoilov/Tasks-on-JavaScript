@@ -55,6 +55,19 @@
 // 	inp.value = inp.value * inp.value;
 //  }   
 
+// Дан инпут и кнопка. По нажатию на кнопку сгенерируйте случайную строку из 8-ми символов и запишите в инпут.
+// var inp = document.querySelector('input');
+// var btn = document.querySelector('button');
+// btn.addEventListener('click', func);
+
+// function func() {
+// 	var str = '';
+// 	var symbols = '0123456789qwertyuiopasdfghjklzxcvbnm';
+// 	for(var i = 0; i < 8; i++){
+// 		str += symbols.charAt(Math.floor(Math.random() * symbols.length));
+// 		inp.value = str;
+// 	}
+// } 
 
 
 
