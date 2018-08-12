@@ -69,7 +69,22 @@
 // 	}
 // } 
 
+// Модифицируйте предыдущую задачу так, чтобы был еще один инпут, в котором задается длина случайной строки.
+// var input = document.getElementById('task');
 
+// function func() {
+// 	var rand = [];
+// 	var str = '0123456789qwertyuiopasdfghjklzxcvbnm';
+// 	var arr = str.split('');
+// 	for (var i = 0; i < 8; i++) {
+// 		rand[i] = arr[getRandom(0, arr.length)];
+// 	}
+// 	input.value = rand.join('');
+// }
+
+// function getRandom(min, max) {
+// 	return Math.floor(Math.random() * max - min + 1) + min;
+// }  
 
 
 
