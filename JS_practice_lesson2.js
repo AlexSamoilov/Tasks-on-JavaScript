@@ -86,5 +86,26 @@
 // 	return Math.floor(Math.random() * max - min + 1) + min;
 // }  
 
+// Модифицируйте предыдущую задачу так, чтобы был еще один инпут, в котором задаются символы, из которых формируется эта случайна строка. Символы задаются без всяких разделитетей, в одну строку.
+// var input = document.getElementById('task');
+// var str = document.getElementById('symbols');
+ 
+// function func() {
+// 	var rand = [];
+// 	var arr = str.value.split('');
+//  	var arr = str.split('');
+// 	for (var i = 0; i < 8; i++) {
+// 		rand[i] = arr[getRandom(0, arr.length)];
+// 	}
+// 	input.value = rand.join('');
+// }
+
+// function getRandom(min, max) {
+// 	return Math.floor(Math.random() * max - min + 1) + min;
+// }  
+
+
+
+
 
 
