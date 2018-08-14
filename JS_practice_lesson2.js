@@ -104,7 +104,26 @@
 // 	return Math.floor(Math.random() * max - min + 1) + min;
 // }  
 
+// Дан инпут. В него вводится число. По потери фокуса сделайте так, чтобы в абзаце ниже начал тикать обратный отсчет, начиная с введенного числа. Когда отсчет дойдет до нуля - он должен закончится.
+// var input = document.getElementById('task');
+// function func() {
+// 	window.funcId = window.setInterval(go, 500);
+//  }
 
+// function go() {
+// 	if (parseInt(input.value) > 0) {
+// 		input.value = parseInt(input.value) -1;
+// 	}
+//  	if(parseInt(input.value) == 0) {
+// 		stop();
+//  	}
+//  }
+
+// function stop() {
+// 	window.clearInterval(window.funcId);
+//  } 
+
+ 
 
 
 
