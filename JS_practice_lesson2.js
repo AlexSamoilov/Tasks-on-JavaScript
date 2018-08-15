@@ -123,7 +123,25 @@
 // 	window.clearInterval(window.funcId);
 //  } 
 
- 
+//  Дан абзац. Сделайте так, чтобы каждую секунду он менял свой цвет с красного на зеленый и наоборот.
+// var p = document.getElementById('text');
+// window.setInterval(func, 1000);
+
+// function func() {
+// 	if(p.style.color =='red') {
+// 		p.style.color = 'green';
+//  	} else {
+// 		p.style.color ='red';
+// 	}
+//   }   
+
+  
+
+
+
+
+
+
 
 
 
