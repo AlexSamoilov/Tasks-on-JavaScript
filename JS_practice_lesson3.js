@@ -16,6 +16,21 @@
 //  	}
 // }      
 
+// Спросите у пользователя какой язык (html, css, js, php) он знает с помощью радио кнопочек. Выведите этот язык в абзац.
+// var elem = document.getElementsByTagName('input');
+// var p = document.getElementById('text');
+// for (var i = 0; i < elem.length; i++) {
+// 	elem[i].addEventListener('change', func);
+// }
+
+// function func() {
+// 	if(this.checked) {
+// 		p.innerHTML=this.value;
+//  	}
+// }  
+
+
+
 
 
 
