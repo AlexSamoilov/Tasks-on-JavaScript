@@ -29,7 +29,20 @@
 //  	}
 // }  
 
+// Спросите у пользователя какие языки (html, css, js, php) он знает с помощью чекбоксов. Выбранные языки должны выводится в абзац ниже через запятую.
+// var elem = document.getElementsByTagName('input');
+// var p = document.getElementById('text');
+// var arr = [];
+// for (var i = 0; i < elem.length; i++) {
+// 	elem[i].addEventListener('change', func);
+// }
 
+// function func() {
+// 	if(this.checked) {
+// 		arr.push(this.value);
+// 		p.innerHTML = arr;
+//  	}
+// }  
 
 
 
