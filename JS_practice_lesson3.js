@@ -44,7 +44,17 @@
 //  	}
 // }  
 
-
+// Дан чекбокс. Дан инпут. Сделайте так, что если чекбокс отмечен - инпут видимый, если не отмечен - не видимый.
+// var elem = document.getElementById('test');
+// var input =document.getElementById('text');
+// function func() {
+// 	if (!elem.checked) {
+// 		input.style.display = "none";
+//  	} else {
+// 		input.style.display = "inline";
+//  	}
+//  }  
+ 
 
 
 
