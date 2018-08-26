@@ -68,6 +68,25 @@
 //  	}
 // }    
 
+// Дан абзац. Даны чекбоксы 'перечеркнуть', 'сделать жирным', 'сделать красным'. Если соответствующий чекбокс отмечен - заданное действие происходит с абзацем (становится красным, например). Если чекбоксу снять отметку - действие отменяется.
+// var input = document.getElementsByTagName('input');
+// for (var i = 0; i < input.length; i++) {
+// 	input[i].addEventListener('change', func);
+// }
+// var p = document.getElementById('text');
+
+// function func() {
+// 	if (this.checked) {
+// 		p.style.cssText = this.value;
+// 	} else {
+// 		p.style.cssText = 'none';
+// 	}
+// }
+
+
+
+
+
 
 
 
